@@ -16,4 +16,12 @@ Bloch sphere features:
  - the black arrows represent the axes
   
 The magnetic field is randomized but can be set by changing the B vector.  
-The initial state is |+> but can be set by changing the psi_0 vector.  
+The initial state is |+⟩ but can be set by changing the psi_0 vector.  
+## Examples
+Magnetic field: \[0, 0, 1\]  
+Initial state: |+⟩
+![](examples/magnetic%20field%20precession%200.gif)
+  
+Magnetic field: \[1, -0.1, 0.75\]  
+Initial state: |+⟩
+![](examples/magnetic%20field%20precession%201.gif)
