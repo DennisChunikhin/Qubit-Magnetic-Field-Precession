@@ -79,9 +79,6 @@ qubit_plot = plot3(x(1), y(1), z(1));
 hold on
 bloch_vector = plot3([0, x(1)],[0, y(1)],[0, z(1)],'r-^', 'LineWidth',3);
 hold on
-% Magnetic field
-quiver3(0, 0, 0, B(1), B(2), B(3), 'Color', 'b');
-hold on
 % Draw axes
 quiver3(0, 0, 0, 1, 0, 0, 'Color', 'k');
 text(1.1, 0, 0, "X", 'FontSize', 20)
@@ -91,6 +88,9 @@ text(0, 1.1, 0, "Y", 'FontSize', 20)
 hold on
 quiver3(0, 0, 0, 0, 0, 1, 'Color', 'k');
 text(0, 0, 1.1, "Z", 'FontSize', 20)
+hold on
+% Magnetic field
+quiver3(0, 0, 0, B(1), B(2), B(3), 'Color', 'b');
 hold on
 % Draw sphere
 [x_s, y_s, z_s] = sphere;
